@@ -1,4 +1,4 @@
-import { Container } from '../../styles'
+import { Containers } from '../../styles'
 import { Form, H2Title } from './styles'
 
 const Hero = () => (
