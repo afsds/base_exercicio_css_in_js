@@ -1,12 +1,11 @@
 import { ThemeProvider } from 'styled-components'
 import Hero from './components/Hero'
-import ListaVagas from './C
-  ontainers/ListaVagas'
+import ListaVagas from './Containers/ListaVagas'
 
 import themeOrigin from './Containers/theme/origin'
 
 import Cabecalho from './components/Cabecalho'
-import EstiloGlobal, { Container } from './styles'
+import EstiloGlobal, { Containers } from './styles'
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
       <EstiloGlobal />
       <Cabecalho />
       <Hero />
-      <Container>
+      <Containers>
         <ListaVagas />
       </Container>
     </ThemeProvider>
