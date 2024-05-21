@@ -5,7 +5,7 @@ import ListaVagas from './Containers/ListaVagas'
 import themeOrigin from './Containers/theme/origin'
 
 import Cabecalho from './components/Cabecalho'
-import EstiloGlobal, { Containers } from './styles'
+import EstiloGlobal, { Container } from './styles'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <EstiloGlobal />
       <Cabecalho />
       <Hero />
-      <Containers>
+      <Container>
         <ListaVagas />
       </Container>
     </ThemeProvider>
